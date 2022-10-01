@@ -1,0 +1,76 @@
+* {
+    background-color: black;
+    border-color: rgb(47, 51, 54);
+    offset: 16px;
+}
+
+.search-bar {
+    background-color: darkgray;
+    color: white;
+    border-radius: 50px;
+    position: relative;
+    height: 30px;
+    width: 95%;
+    float: left;
+}
+
+.image {
+    padding-right: 12px;
+    width: 33px;
+    height: 33px;
+    float: right;
+}
+
+.hyperlinks-bar {
+    text-decoration: none;
+    color:rgb(110, 118, 125);
+    font-size: 15px;
+    padding: 16px;
+}
+
+.first-hyperlink {
+    text-decoration: none;
+    color: rgb(29,161,242);
+    border-bottom: 3px solid rgb(29,161,242); 
+    font-size: 15px;
+    padding: 16px;
+}
+
+.topic-recommended, .tuit-number-recommended {
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+}
+
+.title-recommended {
+    color: white;
+    font-weight: 10;
+}
+
+.separation {
+    padding-left: 16px;
+    border: 1px solid rgb(110, 118, 125);
+    width: 99%;
+}
+
+.author-recommended {
+    color: white;
+    font-size: 13px;
+}
+
+.image-news-recommendation {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px; 
+    display: inline-block;
+    float: right;
+}
+
+#post-with-image {
+    display: inline-block;
+}
+
+.text-post-with-image {
+    display: inline-block; 
+    float: left;
+}
+
