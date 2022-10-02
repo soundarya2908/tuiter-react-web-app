@@ -5,43 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="../styles.css" rel="stylesheet"/>
     <link href="index.css" rel="stylesheet"/>
 </head>
 <body>
-    <div>
-        <input class="search-bar" type="text" placeholder="Search Tuiter"/>
-        <a href="explore-settings.html"><img class="image" src="gear.png"/></a>
-        <br/><br/>
-        <a href="for-you.html" class="first-hyperlink">For You</a>
-        <a href="trending.html" class="hyperlinks-bar">Trending</a>
-        <a href="covid-19.html" class="hyperlinks-bar">COVID-19</a>
-        <a href="news.html" class="hyperlinks-bar">News</a>
-        <a href="sports.html" class="hyperlinks-bar">Sports</a>
-        <a href="entertainment.html" class="hyperlinks-bar">Entertainment</a>
+    <div class="wd-separation">
+        <input class="wd-search-bar" type="text" placeholder="Search Tuiter"/>
+        <a href="explore-settings.html"><img class="wd-image" src="../../../static/images/gear.png"/></a>
+        <br/><br/><br/>
+        <a href="for-you.html" class="wd-first-hyperlink">For You</a>
+        <a href="trending.html" class="wd-hyperlinks-bar">Trending</a>
+        <a href="covid-19.html" class="wd-hyperlinks-bar">COVID-19</a>
+        <a href="news.html" class="wd-hyperlinks-bar">News</a>
+        <a href="sports.html" class="wd-hyperlinks-bar">Sports</a>
+        <a href="entertainment.html" class="wd-hyperlinks-bar">Entertainment</a>
     </div>
-    <br/>
-    <div class = "separation">
-        <div>
-            <div class="topic-recommended">Trending in Science</div><br/>
-            <div class="title-recommended">Starship</div><br/>
-            <div class="tuit-number-recommended">55.5k Tuits</div><br/>
-        </div>
-        <div>
-            <p class="topic-recommended">Sports . Trending</p>
-            <p class="title-recommended">Joe Rogan</p>
-            <p class="tuit-number-recommended">5218 Tuits</p> 
-        </div>
+    <div class="wd-separation">
+        <p>
+            <div class="wd-topic-recommended">Trending in Science</div><br>
+            <div class="wd-title-recommended">Starship</div><br>
+            <div class="wd-tuit-number-recommended">55.5k Tuits</div>
+        </p>
     </div>
-    <div class = "separation" id="post-with-image">
+    <div class="wd-separation">
+        <p>
+            <div class="wd-topic-recommended">Sports . Trending</div><br>
+            <div class="wd-title-recommended">Joe Rogan</div><br>
+            <div class="wd-tuit-number-recommended">5218 Tuits</div> 
+        </p>
+    </div>
+    <div class="wd-separation" id="post-with-image" >
         <div>
-            <div class="text-post-with-image">
-                <p  class="author-recommended">The New York Times</p>
-                <p  class="title-recommended">CNN's Cuomo conundrum: A star anchor with a brother in trouble</p>
+            <div class="wd-text-post-with-image">
+                <p  class="wd-author-recommended">The New York Times <span class="wd-tuit-number-recommended">. Yesterday</span></p>
+                <p  class="wd-title-recommended">CNN's Cuomo conundrum: A star anchor with a brother in trouble</p>
             </div>                
-            <img class="image-news-recommendation" src="image-recommendation.png"/>
+            <img class="wd-image-news-recommendation" src="../../../static/images/CNN.jpg"/>
         </div>
     </div>
 
+     <div class="wd-separation" id="post-with-image">
+        <div>
+            <div class="wd-text-post-with-image">
+                <p  class="wd-topic-recommended">COVID-19 . LIVE</p>
+                <p  class="wd-title-recommended">COVID-19: News and updates for Massachussets.</p>
+            </div>                
+            <img class="wd-image-news-recommendation" src="../../../static/images/covid19.png"/>
+        </div>
+    </div>
+
+    <div class="wd-separation" id="post-with-image">
+        <div>
+            <div class="wd-text-post-with-image">
+                <p  class="wd-author-recommended">Bloomberg Opinion <span class="wd-tuit-number-recommended">. Yesterday</span></p>
+                <p  class="wd-title-recommended">Thinking about getting a booster? Read this first.</p>
+            </div>                
+            <img class="wd-image-news-recommendation" src="../../../static/images/booster.jpg"/>
+        </div>
+    </div>
     
+    <div class="wd-separation">
+        <p>
+            <div class="wd-topic-recommended">Trending in United States</div><br/>
+            <div class="wd-title-recommended">Wonder Bread</div><br>
+            <div class="wd-tuit-number-recommended">1259 Tuits</div><br>
+        </p>
+    </div>
 </body>
 </html>
