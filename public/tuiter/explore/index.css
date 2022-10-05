@@ -1,4 +1,15 @@
+.wd-images-to-follow {
+    width: 50px;
+    height: 50px;
+}
 
+#to-follow-name {
+    width:max-content;
+    height:max-content;
+}
+
+
+/* 
 .wd-search-bar {
     background-color: darkgray;
     color: white;
@@ -58,7 +69,7 @@
     float: right;
     margin-right: 16px;
     /* padding-top: 15px;
-    padding-bottom: 15px; */
+    padding-bottom: 15px; 
     margin-top: 10px;
     margin-bottom: 15px;
 }
@@ -72,4 +83,4 @@
     display: inline-block; 
     float: left;
 }
-
+ */
