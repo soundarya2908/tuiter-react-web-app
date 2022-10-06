@@ -12,68 +12,134 @@
 </head>
 <body>
     <div class="container  mt-2">
-        <div class="row justify-content-center">
+        <div class="row">
             <div class="col-2">
                 <div class="list-group mb-2">
                     <li class="list-group-item">
                         <i class="fab fa-twitter"></i>
                     </li>
                     <a href="../home.html" class="list-group-item list-group-item-action">
-                        <i class="fa fa-home"></i>
-                        Home</a>
+                        <div class="row">
+                            <div class="col-1">
+                                <i class="fa fa-home"></i>
+                            </div>
+                            <div class="col">
+                                <span class="d-none d-xl-block">Home</span>
+                            </div>
+                        </div>
+                    </a>
                     <a href="index.html" class="list-group-item list-group-item-action active">
-                        <i class="fa fa-hashtag"></i>
-                        Explore</a>
+                        <div class="row">
+                            <div class="col-1">
+                                <i class="fa fa-hashtag"></i>
+                            </div>
+                            <div class="col">
+                                <span class="d-none d-xl-block">Explore</span>
+                            </div>
+                        </div>
+                    </a>
                     <a href="#" class="list-group-item list-group-item-action">
-                        <i class="fa fa-bell"></i>
-                        Notifications</a>
+                        <div class="row">
+                            <div class="col-1">
+                                <i class="fa fa-bell"></i>
+                            </div>
+                            <div class="col">
+                                <span class="d-none d-xl-block">Notifications</span>
+                            </div>
+                        </div>
+                    </a>
                     <a href="#" class="list-group-item list-group-item-action">
-                        <i class="fa fa-envelope"></i> 
-                        Messages</a>
+                        <div class="row">
+                            <div class="col-1">
+                                <i class="fa fa-envelope"></i>
+                            </div>
+                            <div class="col">
+                                <span class="d-none d-xl-block">Messages</span>
+                            </div>
+                        </div>
+                    </a>
                     <a href="#" class="list-group-item list-group-item-action">
-                        <i class="fa fa-bookmark"></i>
-                        Bookmarks</a>
+                        <div class="row">
+                            <div class="col-1">
+                                <i class="fa fa-bookmark"></i>
+                            </div>
+                            <div class="col">
+                                <span class="d-none d-xl-block">Bookmarks</span>
+                            </div>
+                        </div>
+                    </a>
                     <a href="#" class="list-group-item list-group-item-action">
-                        <i class="fa fa-list"></i>
-                        Lists</a>
+                        <div class="row">
+                            <div class="col-1">
+                                <i class="fa fa-list"></i> 
+                            </div>
+                            <div class="col">
+                                <span class="d-none d-xl-block">Lists</span>
+                            </div>
+                        </div>
+                    </a>
+                        
                     <a href="#" class="list-group-item list-group-item-action">
-                        <i class="fa fa-user"></i>
-                        Profile</a>
+                        <div class="row">
+                            <div class="col-1">
+                                <i class="fa fa-user"></i>
+                            </div>
+                            <div class="col">
+                                <span class="d-none d-xl-block">Profile</span>
+                            </div>
+                        </div>
+                    </a>
                     <a href="#" class="list-group-item list-group-item-action">
-                        <i class="fa fa-comment-dots"></i>
-                        More</a>
+                        <div class="row">
+                            <div class="col-1">
+                                <i class="fa fa-comment-dots"></i>
+                            </div>
+                            <div class="col">
+                                <span class="d-none d-xl-block">More</span>
+                            </div>
+                        </div>
+                    </a>
                 </div>
                 <button type="button" class="btn btn-primary btn-block rounded-pill">Tuit</button>
+
             </div>
-            <div class="col-6"> 
+            <div class="col-lg-6 col-md-10 col-sm-9"> 
                 <div class="row">
                     <div class="col mb-2">
+                        <!-- <i class="fa fa-search"></i> -->
                         <input type="text" class="form-control rounded-pill" placeholder="Search Tuiter">
                     </div>
-                    <div class="col-1">
-                        <i class="fa fa-cog fa-2x" style="color:rgb(11, 93, 234)"></i> 
+                    <div class="col-1 align-self-center">
+                        <i class="fa fa-cog fa-2x active" style="color:rgb(11, 93, 234)"></i> 
                     </div>
                 </div>
 
                 <ul class="nav nav-tabs mb-2">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">For You</a>
+                        <a class="nav-link active" href="for-you.html">For You</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Trending</a>
+                        <a class="nav-link" href="trending.html">Trending</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">News</a>
+                    <li class="nav-item d-none d-md-block">
+                        <a class="nav-link" href="news.html">News</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Sports</a>
+                    <li class="nav-item d-none d-lg-block">
+                        <a class="nav-link" href="sports.html">Sports</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Entertainment</a>
+                    <li class="nav-item d-none d-xl-block">
+                        <a class="nav-link" href="entertainment.html">Entertainment</a>
                     </li>
                 </ul>
 
-                <img src="../../images/starship.jpg" class="img-fluid" style="width:100%">
+                <div class="card">
+                    <img class="card-img" src="../../images/starship.jpg">
+                    <div class="card-img-overlay d-flex align-items-end">
+                        <h3 class="text-stroke text-white font-weight-bold">
+                            SpaceX's Starship
+                        </h3>
+                    </div>
+                </div>
 
                 <div class="list-group">
                     <li class="list-group-item">
@@ -94,7 +160,7 @@
                                     React.js is a component based front-end library that makes it very easy to build Single Page Applications or SPAs.
                                 </div>
                             </div>
-                            <div class="col-2">
+                            <div class="col-2 align-self-center">
                                 <div class="wd-images-to-follow">
                                     <img src="../../images/react.png" class="img-fluid rounded-pill">
                                 </div>
@@ -120,7 +186,7 @@
                                     123k tuits
                                 </div>
                             </div>
-                            <div class="col-2">
+                            <div class="col-2 align-self-center">
                                 <div class="wd-images-to-follow">
                                     <img src="../../images/javascript.png" class="img-fluid">
                                 </div>
@@ -143,7 +209,7 @@
                                     123k tuits
                                 </div>
                             </div>
-                            <div class="col-2">
+                            <div class="col-2 align-self-center">
                                 <div class="wd-images-to-follow">
                                     <img src="../../images/jquery.png" class="img-fluid rounded-pill">
                                 </div>
@@ -169,7 +235,7 @@
                                     123k tuits
                                 </div>
                             </div>
-                            <div class="col-2">
+                            <div class="col-2 align-self-center">
                                 <div class="wd-images-to-follow">
                                     <img src="../../images/nodejs.png" class="img-fluid rounded-pill">
                                 </div>
@@ -178,25 +244,25 @@
                     </li> 
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-4 d-none d-lg-block">
                 <div class="list-group">
                     <li class="list-group-item font-weight-bold">
                         Who to follow
                     </li>
                     <div class="list-group-item">
                         <div class="row">
-                            <div class="col-2">
+                            <div class="col-lg-3 align-self-center">
                                 <div class="wd-images-to-follow">
                                     <img src="../../images/java.png" class="img-fluid rounded-pill">
                                 </div>
                             </div>
-                            <div class="col">
+                            <div class="col-lg-5">
                                 <div class="font-weight-bold">
                                     Java 
                                 </div>
                                 @Java
                             </div>
-                            <div class="col-4">
+                            <div class="col-4 align-self-center">
                                 <button type="button" class="btn btn-primary btn-block rounded-pill">Follow</button>
                             </div>
                         </div>
@@ -204,18 +270,18 @@
 
                     <div class="list-group-item">
                         <div class="row">
-                            <div class="col-2">
+                            <div class="col-lg-3 align-self-center">
                                 <div class="wd-images-to-follow">
                                     <img src="../../images/relativity-space.png" class="img-fluid rounded-pill">
                                 </div>
                             </div>
-                            <div class="col">
+                            <div class="col-lg-5">
                                 <div class="font-weight-bold">
                                     Relativity Space 
                                 </div>
                                 @relativityspace
                             </div>
-                            <div class="col-4">
+                            <div class="col-4 align-self-center">
                                 <button type="button" class="btn btn-primary btn-block rounded-pill">Follow</button>
                             </div>
                         </div>
@@ -223,18 +289,18 @@
 
                     <div class="list-group-item">
                         <div class="row">
-                            <div class="col-2">
+                            <div class="col-lg-3 align-self-center">
                                 <div class="wd-images-to-follow">
                                     <img src="../../images/virgin-galactic.png" class="img-fluid rounded-pill">
                                 </div>
                             </div>
-                            <div class="col">
+                            <div class="col-lg-5">
                                 <div class="font-weight-bold">
                                     Virgin Galactic 
                                 </div>
                                 @virgingalactic
                             </div>
-                            <div class="col-4">
+                            <div class="col-4 align-self-center">
                                 <button type="button" class="btn btn-primary btn-block rounded-pill">Follow</button>
                             </div>
                         </div>
@@ -242,18 +308,18 @@
 
                     <div class="list-group-item">
                         <div class="row">
-                            <div class="col-2">
+                            <div class="col-lg-3 align-self-center">
                                 <div class="wd-images-to-follow">
                                     <img src="../../images/nasa.png" class="img-fluid rounded-pill">
                                 </div>
                             </div>
-                            <div class="col">
+                            <div class="col-lg-5">
                                 <div class="font-weight-bold">
                                     NASA 
                                 </div>
                                 @NASA
                             </div>
-                            <div class="col-4">
+                            <div class="col-4 align-self-center">
                                 <button type="button" class="btn btn-primary btn-block rounded-pill">Follow</button>
                             </div>
                         </div>
@@ -261,18 +327,18 @@
 
                     <div class="list-group-item">
                         <div class="row">
-                            <div class="col-2">
+                            <div class="col-lg-3 align-self-center">
                                 <div class="wd-images-to-follow">
                                     <img src="../../images/tesla.png" class="img-fluid rounded-pill">
                                 </div>
                             </div>
-                            <div class="col">
+                            <div class="col-lg-5">
                                 <div class="font-weight-bold">
                                     Tesla
                                 </div>
                                 @Tesla
                             </div>
-                            <div class="col-4">
+                            <div class="col-4 align-self-center">
                                 <button type="button" class="btn btn-primary btn-block rounded-pill">Follow</button>
                             </div>
                         </div>
