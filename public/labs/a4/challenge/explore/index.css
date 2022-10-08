@@ -1,0 +1,132 @@
+.wd-images-to-follow {
+    width: 50px;
+    height: 50px;
+}
+
+.wd-background-black {
+    background-color: black;
+    color: white;
+    /* padding:revert; */
+}
+
+/* input::placeholder {
+    color: red;
+}   */
+
+.wd-padding-set {
+    padding-left: 5px;
+}
+
+.wd-search-bar {
+    background-color: rgb(30, 30, 30); 
+    color: white;
+}
+
+.wd-active {
+    border-bottom: 3px solid rgb(29,161,242); 
+}
+
+.wd-border-set {
+    border: 1px solid rgb(45, 45, 45);
+    /* border-color: rgb(45, 45, 45); */
+}
+
+.wd-bottom-border-set {
+    border-bottom: 0px;
+}
+
+.wd-remove-top-border {
+    border-top: 0px;
+}
+
+.wd-background-grey {
+    background-color: rgb(30, 30, 30); 
+    color: white;
+}
+
+.wd-margin-set {
+    margin-left: 10px;
+    margin-right:10px
+}
+
+body {
+    background-color: black;
+}
+
+.wd-btn-follow {
+    background-color: white;
+    color: black;
+    border: white;
+}
+
+.wd-card-item-set {
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding-left: 0px;
+    padding-bottom: 0px;
+}
+/* 
+.wd-image {
+    padding-right: 12px;
+    margin-top: 10px;
+    width: 33px;
+    height: 33px;
+    float: right;
+}
+
+.wd-hyperlinks-bar {
+    text-decoration: none;
+    color:rgb(110, 118, 125);
+    font-size: 15px;
+    padding: 16px;
+    display: inline-block;
+}
+
+.wd-first-hyperlink {
+    text-decoration: none;
+    color: rgb(29,161,242);
+    border-bottom: 3px solid rgb(29,161,242); 
+    font-size: 15px;
+    padding: 16px;
+    display: inline-block;
+}
+
+.wd-topic-recommended, .wd-tuit-number-recommended {
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-title-recommended {
+    color: white;
+    font-weight: 10;
+}
+
+.wd-author-recommended {
+    color: white;
+    font-size: 13px;
+}
+
+.wd-image-news-recommendation {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px; 
+    display: flex;
+    float: right;
+    margin-right: 16px;
+    /* padding-top: 15px;
+    padding-bottom: 15px; 
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#post-with-image {
+    display: inline-block;
+    margin-bottom: -10px;
+}
+
+.wd-text-post-with-image {
+    display: inline-block; 
+    float: left;
+}
+ */
