@@ -1,4 +1,4 @@
-export default exploreItems = [
+const posts = [
     {
         topic: 'Web Development',
         userName: 'ReactJS',
@@ -29,5 +29,8 @@ export default exploreItems = [
         time: 'last month',
         image: "../../../../public/images/nodejs.png",
         tweets: '120K',
-    },];
+    }
+];
+
+export default posts;
  
