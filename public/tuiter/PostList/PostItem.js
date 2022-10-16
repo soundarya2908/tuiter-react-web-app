@@ -13,10 +13,10 @@ const PostItem = (post)=>{
         "";
         
     return(`
-        <div class="list-group-item bg-black">
+        <div class="list-group-item bg-black mb-1 border-bottom border-secondary">
             <div class="row">
-                <div class="col-1">
-                    <img src=${post.profileImage} class="img-fluid rounded-circle">
+                <div class="col-2">
+                    <img src=${post.profileImage} class="img-fluid rounded-pill wd-images-to-follow">
                 </div>
                 <div class="col">
                     <div>

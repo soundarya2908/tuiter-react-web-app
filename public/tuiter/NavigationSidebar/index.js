@@ -4,7 +4,7 @@ const NavigationSidebar = (active) => {
             <a class="list-group-item" href="#">
                 <i class="fab fa-twitter"></i>
             </a>
-            <a href="../HomeScreen/index.html" class="list-group-item list-group-item-action ${active == 'home' ? 'active' : ''}">
+            <a href="../HomeScreen/index.html" class="list-group-item text-decoration-none ${active == 'home' ? 'active' : ''}">
                 <div class="row">
                     <div class="col-1">
                         <i class="fa fa-home"></i>
@@ -14,7 +14,7 @@ const NavigationSidebar = (active) => {
                     </div>
                 </div>
             </a>
-            <a href="../ExploreScreen/index.html" class="list-group-item list-group-item-action ${active == 'explore' ? 'active' : ''}">
+            <a href="../ExploreScreen/index.html" class="list-group-item text-decoration-none ${active == 'explore' ? 'active' : ''}">
                 <div class="row">
                     <div class="col-1">
                         <i class="fa fa-hashtag"></i>
@@ -24,7 +24,7 @@ const NavigationSidebar = (active) => {
                     </div>
                 </div>
             </a>
-            <a href="#" class="list-group-item list-group-item-action">
+            <a href="#" class="list-group-item text-decoration-none">
                 <div class="row">
                     <div class="col-1">
                         <i class="fa fa-bell"></i>
@@ -34,7 +34,7 @@ const NavigationSidebar = (active) => {
                     </div>
                 </div>
             </a>
-            <a href="#" class="list-group-item list-group-item-action">
+            <a href="#" class="list-group-item text-decoration-none">
                 <div class="row">
                     <div class="col-1">
                         <i class="fa fa-envelope"></i>
@@ -44,7 +44,7 @@ const NavigationSidebar = (active) => {
                     </div>
                 </div>
             </a>
-            <a href="#" class="list-group-item list-group-item-action">
+            <a href="#" class="list-group-item text-decoration-none">
                 <div class="row">
                     <div class="col-1">
                         <i class="fa fa-bookmark"></i>
@@ -54,7 +54,7 @@ const NavigationSidebar = (active) => {
                     </div>
                 </div>
             </a>
-            <a href="#" class="list-group-item list-group-item-action">
+            <a href="#" class="list-group-item text-decoration-none">
                 <div class="row">
                     <div class="col-1">
                         <i class="fa fa-list"></i> 
@@ -65,7 +65,7 @@ const NavigationSidebar = (active) => {
                 </div>
             </a>
                 
-            <a href="#" class="list-group-item list-group-item-action">
+            <a href="#" class="list-group-item text-decoration-none">
                 <div class="row">
                     <div class="col-1">
                         <i class="fa fa-user"></i>
@@ -75,7 +75,7 @@ const NavigationSidebar = (active) => {
                     </div>
                 </div>
             </a>
-            <a href="#" class="list-group-item list-group-item-action">
+            <a href="#" class="list-group-item text-decoration-none">
                 <div class="row">
                     <div class="col-1">
                         <i class="fa fa-comment-dots"></i>
