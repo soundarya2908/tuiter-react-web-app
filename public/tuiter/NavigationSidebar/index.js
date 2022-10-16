@@ -4,7 +4,7 @@ const NavigationSidebar = (active) => {
             <a class="list-group-item" href="#">
                 <i class="fab fa-twitter"></i>
             </a>
-            <a href="../../../../public/tuiter/explore/HomeScreen/index.html" class="list-group-item list-group-item-action ${active == 'home' ? 'active' : ''}">
+            <a href="../HomeScreen/index.html" class="list-group-item list-group-item-action ${active == 'home' ? 'active' : ''}">
                 <div class="row">
                     <div class="col-1">
                         <i class="fa fa-home"></i>
@@ -14,7 +14,7 @@ const NavigationSidebar = (active) => {
                     </div>
                 </div>
             </a>
-            <a href="../../../../public/tuiter/explore/index.html" class="list-group-item list-group-item-action ${active == 'explore' ? 'active' : ''}">
+            <a href="../ExploreScreen/index.html" class="list-group-item list-group-item-action ${active == 'explore' ? 'active' : ''}">
                 <div class="row">
                     <div class="col-1">
                         <i class="fa fa-hashtag"></i>

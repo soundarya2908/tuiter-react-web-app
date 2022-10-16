@@ -30,7 +30,7 @@ const ExploreComponent = () => {
         </ul>
         
         <div class="card">
-            <img class="card-img" src="../../images/starship.jpg">
+            <img class="card-img" src="../images/starship.jpg">
             <div class="card-img-overlay d-flex align-items-end">
                 <h3 class="text-stroke text-white font-weight-bold">
                     SpaceX's Starship

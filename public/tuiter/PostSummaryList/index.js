@@ -6,7 +6,6 @@ const PostSummaryList = () => {
         <ul class="list-group">
             ${
                 posts.map(post => {
-                    console.log('in PostSummaryList')
                     return(PostSummaryItem(post));
                 }).join('')
             }
