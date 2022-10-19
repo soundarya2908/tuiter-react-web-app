@@ -6,5 +6,5 @@ function Labs() {
           <Assignment6/>
        </div>
     );
- }
- export default Labs; 
+}
+export default Labs; 
