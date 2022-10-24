@@ -7,7 +7,7 @@ const PostItem = ( {
         "userName" : "Elon Musk",
         "handle" : "elonmusk",
         "time" : "23h",
-        "description" : "Amazing show about <a href=\"#\">@inspiration4x</a> mission!",
+        "description" : "Amazing show about @inspiration4x mission!",
         "cardImage" : "inspiration4x.jpg",
         "cardTitle" : "Countdown: Inspiration4 Mission to Space | Netflix Official Site",
         "cardDescription" : "From training to launch to landing, this all-access docuseries rides along with the Inspiration4 crew on the first all-civilian orbital space...",
@@ -17,7 +17,7 @@ const PostItem = ( {
         "retweets" : "3.5k",
         "likes" : "37.5k"
 }}) => {
-    const shouldDisplay =   post.cardTitle != "" && post.cardDescription != "" && <div className="list-group-item p-0 pt-1">
+    const shouldDisplay =   post.cardTitle !== "" && post.cardDescription !== "" && <div className="list-group-item p-0 pt-1">
                                 <div className="card-body">
                                     <h6 className="card-title">{post.cardTitle}</h6>
                                     <p className="card-text text-muted">{post.cardDescription}</p>
