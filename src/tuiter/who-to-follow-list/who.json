@@ -3,7 +3,7 @@
       "_id": 123,
       "userName": "NASA",
       "handle": "NASA",
-      "avatarIcon": "../images/nasa.png"
+      "avatarIcon": "../../../src/tuiter/images/nasa.png"
     },
     {
       "_id": 234,
