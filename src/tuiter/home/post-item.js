@@ -31,7 +31,7 @@ const PostItem = ( {
         <div className="list-group-item">
             <div className="row">
                 <div className="col-2">
-                    <img src={`images/${post.profileImage}`} className="rounded-circle" height={50} width={50} />
+                    <img src={`images/${post.profileImage}`} alt = "" className="rounded-circle" height={50} width={50} />
                 </div>
                 <div className="col">
                     <div>
@@ -45,7 +45,7 @@ const PostItem = ( {
                     <div className="card">
                         <div className="list-group">
                             <div className="list-group-item p-0">
-                                <img className="card-img-top" src={`images/${post.cardImage}`}/>
+                                <img className="card-img-top" src={`images/${post.cardImage}`} alt="" />
                             </div>
 
                             {shouldDisplay}
