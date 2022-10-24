@@ -45,7 +45,6 @@ const NavigationSidebar = () => {
             </a>
         </div>
       );
-     
 }
 
 export default NavigationSidebar;
