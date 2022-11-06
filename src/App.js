@@ -2,7 +2,7 @@ import { BrowserRouter } from 'react-router-dom';
 import { Routes, Route } from 'react-router';
 import './App.css';
 import Labs from "./labs";
-import HelloWorld from './labs/a6/hello-world';
+// import HelloWorld from './labs/a6/hello-world';
 import Tuiter from './tuiter';
 import Assignment6 from './labs/a6';
 import Assignment7 from './labs/a7';
