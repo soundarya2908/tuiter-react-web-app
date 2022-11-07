@@ -13,7 +13,6 @@ const WhoToFollowList = () => {
             {
                 whoArray.map(who => 
                     {
-                        console.log(who);
                         return <WhoToFollowListItem key={who._id} who={who}/>
                     })
                 

@@ -18,7 +18,6 @@ const PostSummaryItem = (
         }
     }
 ) => {
-    // console.log(post.title)
     return(
         <li className="list-group-item">
             <div className="row">
