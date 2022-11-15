@@ -1,16 +1,16 @@
 import { useDispatch } from "react-redux";
 import React from "react";
-import { deleteTuit } from "./tuits-reducer";
+import { deleteTuitThunk, updateTuitThunk } from "../../services/tuits-thunks";
+// import { deleteTuit } from "./tuits-reducer";
 import 'font-awesome/css/font-awesome.min.css';
 
 const TuitItem = ({tuit}) => {
     const dispatch = useDispatch();
-
     const deleteTuitHandler = (id) => {
-        dispatch(deleteTuit(id));
+        dispatch(deleteTuitThunk(id));
     }
 
-    let likedClass = tuit.liked?"bi bi-heart-fill text-danger":"bi bi-heart"
+    // let likedClass = tuit.liked?"bi bi-heart-fill text-danger":"bi bi-heart"
     return(
         <div className="list-group-item">
             <div className="row">
@@ -42,7 +42,10 @@ const TuitItem = ({tuit}) => {
                                     <span className="text-muted">{tuit.retuits}</span>
                                 </div>
                                 <div className="col">
-                                    <i className={likedClass}></i>
+                                    <i onClick={() => dispatch(updateTuitThunk({
+                                        ...tuit,
+                                        likes: tuit.likes+1
+                                    }))} className="bi bi-heart-fill me-2 text-danger"></i>
                                     <span className="text-muted">{tuit.likes}</span>
                                 </div>
                                 <div className="col">
