@@ -7,6 +7,7 @@ import 'font-awesome/css/font-awesome.min.css';
 const TuitItem = ({tuit}) => {
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
+        console.log(id)
         dispatch(deleteTuitThunk(id));
     }
 
