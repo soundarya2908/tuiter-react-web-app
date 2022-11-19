@@ -11,11 +11,12 @@ const TuitItem = ({tuit}) => {
     }
 
     // let likedClass = tuit.liked?"bi bi-heart-fill text-danger":"bi bi-heart"
+    console.log(tuit)
     return(
         <div className="list-group-item">
             <div className="row">
                 <div className="col-2">
-                    <img src={`images/${tuit.image}`} alt = "" className="rounded-circle" height={50} width={50} />
+                    <img src={`../../../src/tuiter/images/${tuit.image}`} alt = "" className="rounded-circle" height={50} width={50} />
                 </div>
                 <div className="col">
                     <div>
