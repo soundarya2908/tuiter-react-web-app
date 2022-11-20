@@ -5,9 +5,7 @@ const API_BASE = process.env.REACT_APP_API_BASE;
 const TUITS_API = `${API_BASE}/tuits`;
 
 export const createTuit = async (tuit) => {
-    console.log("Tuit: "  + JSON.stringify(tuit))
     const response = await axios.post(TUITS_API, tuit)
-    console.log("Create Response: " + JSON.stringify(response.data))
     return response.data;
 }
 
@@ -18,9 +16,7 @@ export const findTuits = async () => {
 }
    
 export const deleteTuit = async (tid) => {
-    console.log("Tuit id to delete:" + tid)
     const response = await axios.delete(`${TUITS_API}/${tid}`)
-    console.log("Delete Response: " + JSON.stringify(response.data))
     return response.data
 }
 
