@@ -8,7 +8,7 @@ import tuitsReducer from "./tuits/tuits-reducer";
 import profilesReducer from "./profile/profiles-reducer";
 import { configureStore } from '@reduxjs/toolkit';
 import {Provider} from "react-redux";
-import HomeComponent from "./home";
+import HomeComponent from "../../src/tuiter/home";
 import ProfileComponent from "./profile";
 import EditProfile from "./edit-profile";
 
