@@ -20,6 +20,7 @@ const store = configureStore({
     }});
 
 function Tuiter() {
+    console.log("in tuiter")
     return(
         <Provider store={store}>
             <div>
