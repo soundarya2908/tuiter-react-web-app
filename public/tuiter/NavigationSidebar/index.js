@@ -4,7 +4,7 @@ const NavigationSidebar = (active) => {
             <a class="list-group-item" href="#">
                 <i class="fab fa-twitter"></i>
             </a>
-            <a href="../HomeScreen/index.html" class="list-group-item text-decoration-none ${active == 'home' ? 'active' : ''}">
+            <a href="../../../src/tuiter/home" class="list-group-item text-decoration-none ${active == 'home' ? 'active' : ''}">
                 <div class="row">
                     <div class="col-1">
                         <i class="fa fa-home"></i>
