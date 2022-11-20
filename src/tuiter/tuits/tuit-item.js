@@ -7,17 +7,15 @@ import 'font-awesome/css/font-awesome.min.css';
 const TuitItem = ({tuit}) => {
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
-        console.log(id)
         dispatch(deleteTuitThunk(id));
     }
 
     let likedClass = tuit.liked?"bi bi-heart-fill text-danger":"bi bi-heart"
-    console.log(tuit)
     return(
         <div className="list-group-item">
             <div className="row">
                 <div className="col-2">
-                    <img src={`../../../src/tuiter/images/${tuit.image}`} alt = "" className="rounded-circle" height={50} width={50} />
+                    <img src={`images/${tuit.image}`} alt = "" className="rounded-circle" height={50} width={50} />
                 </div>
                 <div className="col">
                     <div>
