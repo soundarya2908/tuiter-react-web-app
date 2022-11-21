@@ -3,7 +3,6 @@ import TuitsList from "../tuits/tuit-list";
 import WhatsHappening from "./whats-happening";
 
 const HomeComponent = () => {
-    console.log("in home")
     return(
         <>
             <h4>Home</h4>

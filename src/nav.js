@@ -1,7 +1,6 @@
 import {Link} from "react-router-dom";
 
 function Nav() {
-  console.log("in nav.js")
  return (
    <div>
      <Link to="/">Labs</Link> |
