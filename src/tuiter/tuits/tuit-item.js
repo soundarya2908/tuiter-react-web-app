@@ -10,7 +10,7 @@ const TuitItem = ({tuit}) => {
         dispatch(deleteTuitThunk(id));
     }
 
-    let likedClass = tuit.liked?"bi bi-heart-fill text-danger":"bi bi-heart"
+    // let likedClass = tuit.liked?"bi bi-heart-fill text-danger":"bi bi-heart"
     return(
         <div className="list-group-item">
             <div className="row">
@@ -42,10 +42,11 @@ const TuitItem = ({tuit}) => {
                                     <span className="text-muted">{tuit.retuits}</span>
                                 </div>
                                 <div className="col">
-                                    <i onClick={() => dispatch(updateTuitThunk({
+                                    <i className={tuit.liked ? "bi bi-heart-fill text-danger" : "bi bi-heart"} onClick={() => dispatch(updateTuitThunk({
                                         ...tuit,
-                                        likes: tuit.likes+1
-                                    }))} className={likedClass}></i>
+                                        likes: tuit.likes+1,
+                                        liked: true
+                                    }))}></i>
                                     <span className="text-muted">{tuit.likes}</span>
                                 </div>
                                 <div className="col">
