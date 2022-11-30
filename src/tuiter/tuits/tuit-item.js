@@ -50,6 +50,14 @@ const TuitItem = ({tuit}) => {
                                     <span className="text-muted">{tuit.likes}</span>
                                 </div>
                                 <div className="col">
+                                    <i className={tuit.disliked ? "bi bi-hand-thumbs-down-fill" : "bi bi-hand-thumbs-down"} onClick={() => dispatch(updateTuitThunk({
+                                        ...tuit,
+                                        dislikes: tuit.dislikes+1,
+                                        disliked: true
+                                    }))}></i>
+                                    <span className="text-muted">{tuit.dislikes}</span>
+                                </div>
+                                <div className="col">
                                     <i className="bi bi-upload text-muted"></i>
                                 </div>
                             </div>
