@@ -10,6 +10,7 @@ const TuitItem = ({tuit}) => {
         dispatch(deleteTuitThunk(id));
     }
 
+    // let likedClass = tuit.liked?"bi bi-heart-fill text-danger":"bi bi-heart"
     return(
         <div className="list-group-item">
             <div className="row">
